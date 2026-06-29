@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">VCU Summer Registration</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="course-search.html">Course Search</a>
+    <a class="active" href="student-registration.html">Student Registration</a>
+    <a href="instructor-schedule.html">Instructor Schedule</a>
+    <a href="session-enrollment.html">Session Enrollment</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title card">
+    <h1>Student Registration</h1>
+    <p>Prototype login and registration workflow for summer sections. Validation blocks duplicate course registration and full sections.</p>
+  </section>
+  <section class="two-col">
+    <div class="card">
+      <h2>Student Login</h2>
+      <label for="studentId">Student ID</label><input id="studentId" value="V00987654">
+      <label for="studentName">Student Name</label><input id="studentName" value="Bryan Ly">
+      <p class="notice">Demo account shows a Virginia resident student with two current summer courses.</p>
+      <a class="button light" href="#current">View My Sections</a>
+    </div>
+    <div class="card" id="current">
+      <h2>Currently Enrolled</h2>
+      <table>
+        <thead><tr><th>Course</th><th>Name</th><th>Section</th><th>Instructor</th><th>Modality</th></tr></thead>
+        <tbody id="enrolledRows"></tbody>
+      </table>
+    </div>
+  </section>
+  <section class="card" style="margin-top:20px;">
+    <h2>Available Sections</h2>
+    <div id="registerMessage" class="message"></div>
+    <table>
+      <thead><tr><th>Course</th><th>Section</th><th>Instructor</th><th>Credits</th><th>Prerequisites</th><th>Modality</th><th>Enrollment</th><th>Action</th></tr></thead>
+      <tbody id="registrationRows"></tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>

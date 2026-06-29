@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructor Schedule</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">VCU Summer Registration</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="course-search.html">Course Search</a>
+    <a href="student-registration.html">Student Registration</a>
+    <a class="active" href="instructor-schedule.html">Instructor Schedule</a>
+    <a href="session-enrollment.html">Session Enrollment</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title card">
+    <h1>Instructor Schedule</h1>
+    <p>Instructors can log in and view assigned summer sections with modality, capacity, and enrollment status.</p>
+  </section>
+  <section class="two-col">
+    <div class="card">
+      <h2>Instructor Login</h2>
+      <label for="instructorId">Instructor ID</label><input id="instructorId" value="I1024">
+      <label for="instructorName">Instructor Name</label><input id="instructorName" value="Dr. Harper">
+      <p class="notice">Department: Information Systems</p>
+    </div>
+    <div class="card">
+      <h2>Quick Summary</h2>
+      <p><strong>2</strong> assigned sections</p>
+      <p><strong>17</strong> total enrolled students</p>
+      <p><strong>Hybrid and Asynchronous</strong> modalities</p>
+    </div>
+  </section>
+  <section class="card" style="margin-top:20px;">
+    <h2>Assigned Sections</h2>
+    <table>
+      <thead><tr><th>Course</th><th>Section</th><th>Modality</th><th>Enrollment</th><th>Action</th></tr></thead>
+      <tbody>
+        <tr><td><strong>INFO 465</strong><br>Projects in Information Systems</td><td>001</td><td><span class="badge hybrid">Hybrid</span></td><td>8/10</td><td><a class="button light" href="session-enrollment.html">View Roster</a></td></tr>
+        <tr><td><strong>INFO 350</strong><br>Information Systems Security</td><td>001</td><td><span class="badge online">Asynchronous</span></td><td>9/18</td><td><a class="button light" href="session-enrollment.html">View Roster</a></td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Session Enrollment</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="logo">VCU Summer Registration</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="course-search.html">Course Search</a>
+    <a href="student-registration.html">Student Registration</a>
+    <a href="instructor-schedule.html">Instructor Schedule</a>
+    <a class="active" href="session-enrollment.html">Session Enrollment</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title card">
+    <h1>Session Enrollment</h1>
+    <p>Authorized users can view enrolled students for a selected course section.</p>
+  </section>
+  <section class="card">
+    <h2>Selected Section</h2>
+    <div class="two-col">
+      <div><label>Course</label><input value="INFO 465 - Projects in Information Systems" readonly></div>
+      <div><label>Section</label><input value="001" readonly></div>
+    </div>
+    <p class="notice">Instructor: Dr. Harper | Modality: Hybrid | Maximum Students: 10</p>
+  </section>
+  <section class="card" style="margin-top:20px;">
+    <h2>Enrolled Students</h2>
+    <table>
+      <thead><tr><th>Student ID</th><th>First Name</th><th>Last Name</th><th>Home Country</th><th>Virginia Resident</th></tr></thead>
+      <tbody>
+        <tr><td>V00987654</td><td>Bryan</td><td>Ly</td><td>United States</td><td>Yes</td></tr>
+        <tr><td>V00911223</td><td>Amira</td><td>Johnson</td><td>United States</td><td>Yes</td></tr>
+        <tr><td>V00845677</td><td>Daniel</td><td>Kim</td><td>South Korea</td><td>No</td></tr>
+        <tr><td>V00778945</td><td>Sofia</td><td>Garcia</td><td>Spain</td><td>No</td></tr>
+        <tr><td>V00612388</td><td>Marcus</td><td>Brown</td><td>United States</td><td>Yes</td></tr>
+        <tr><td>V00546719</td><td>Priya</td><td>Shah</td><td>India</td><td>No</td></tr>
+        <tr><td>V00465421</td><td>Emily</td><td>Tran</td><td>United States</td><td>Yes</td></tr>
+        <tr><td>V00329811</td><td>Noah</td><td>Wilson</td><td>Ireland</td><td>No</td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>

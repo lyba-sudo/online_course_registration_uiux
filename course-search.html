@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Search</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+<header>
+  <div class="logo">VCU Summer Registration</div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a class="active" href="course-search.html">Course Search</a>
+    <a href="student-registration.html">Student Registration</a>
+    <a href="instructor-schedule.html">Instructor Schedule</a>
+    <a href="session-enrollment.html">Session Enrollment</a>
+  </nav>
+</header>
+<main>
+  <section class="page-title card">
+    <h1>Course Search</h1>
+    <p>Search available summer course sections by department, instructor, or course number.</p>
+  </section>
+  <section class="card">
+    <div class="filters">
+      <div><label for="dept">Department</label><input id="dept" placeholder="Example: INFO"></div>
+      <div><label for="instructor">Instructor</label><input id="instructor" placeholder="Example: Harper"></div>
+      <div><label for="courseNum">Course Number</label><input id="courseNum" placeholder="Example: INFO 465"></div>
+      <button onclick="searchCourses()">Search</button>
+    </div>
+    <table aria-label="Course search results">
+      <thead><tr><th>Course</th><th>Section</th><th>Instructor</th><th>Credits</th><th>Prerequisites</th><th>Modality</th><th>Enrollment</th></tr></thead>
+      <tbody id="courseRows"></tbody>
+    </table>
+  </section>
+</main>
+</body>
+</html>
