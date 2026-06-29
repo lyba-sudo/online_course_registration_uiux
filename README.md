@@ -28,9 +28,3 @@ Design Decisions and Challenges:
 - The registration workflow was simplified so the evaluator can understand the task without a real database.
 - Since this is a UI/UX draft, sample data is hard-coded instead of connected to a live backend.
 - The interface was designed to support the required project rules: multiple sections, instructor assignments, enrollment limits, duplicate registration prevention, and section rosters.
-
-Submission Notes:
-- Open index.html in a browser first.
-- Take screenshots of each .html page with the browser URL bar visible.
-- Upload all .html, .css, .js, and README.TXT files to the team GitHub repository.
-- Also take a screenshot showing the files in GitHub, commit history, and repository collaborators with read/write access.
