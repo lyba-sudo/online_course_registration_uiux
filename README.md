@@ -4,7 +4,8 @@ Repository/Project Purpose:
 This folder contains a browser-based draft UI/UX prototype for the Online Course Registration System. The screens support student registration, course search, instructor schedule review, and section enrollment viewing.
 
 Team Member Contributions:
-- Bryan Ly: Completed the full UI/UX prototype package, including the Home Screen, Course Search Screen, Student Registration Screen, Instructor Schedule Screen, Session Enrollment Screen, shared CSS styling, basic JavaScript validation, and README documentation.
+- Bryan Ly: Completed the full UI/UX prototype package, including the Home Screen, Course Search Screen, Student Registration Screen, Instructor Schedule Screen, Session Enrollment Screen, and README documentation.
+- J'amai Fripp Completed basic JavaScript validation and shared CSS styling.
 
 Screen Summary:
 1. index.html - Home screen with navigation to all core functions and a simple task flow overview.
